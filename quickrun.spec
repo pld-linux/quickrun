@@ -1,5 +1,5 @@
-Summary:	Quickrun is a very simple command launcher
-Summary(pl):	Quickrun jest bardzo prostym wykonawc± poleceñ
+Summary:	Quickrun - a very simple command launcher
+Summary(pl):	Quickrun - bardzo prosty wykonawca poleceñ
 Name:		quickrun
 Version:	0.4
 Release:	1
@@ -8,6 +8,7 @@ Group:		X11/Applications
 Source0:	http://mbox2mysql.sourceforge.net/%{name}-%{version}.tar.gz
 # Source0-md5:	57edc8c82e84bdabdd02527fd1238d47
 URL:		http://mbox2mysql.sourceforge.net/
+BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -35,11 +36,9 @@ okre¶lonej kombinacji klawiszy (skrótu).
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 
-install -d $RPM_BUILD_ROOT%{_bindir} \
-	$RPM_BUILD_ROOT%{_mandir}/man1
-
-install --strip quickrun $RPM_BUILD_ROOT%{_bindir}
+install quickrun $RPM_BUILD_ROOT%{_bindir}
 install doc/quickrun.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
 %clean
