@@ -19,6 +19,12 @@ applet, but instead requires a keybinding (shortcut) to be set in
 order to use it.
 
 %description -l pl
+Quickrun jest bardzo prostym wykonawc± poleceñ przeznaczonym do
+wspó³pracy z takimi zarz±dcami okien, jak Fluxbox i Blackbox. Jednak¿e
+wspó³pracuje on równie¿ ¶wietnie z Enlightenmentem, KDE i innymi.
+Obs³uguje on historiê poleceñ oraz dope³nianie nazw plików i poleceñ.
+Nie jest to dokowalny aplet, ale wymaga do u¿ywania przypisania mu
+okre¶lonej kombinacji klawiszy (skrótu).
 
 %prep
 %setup -q
