@@ -1,5 +1,5 @@
 Summary:	Quickrun - a very simple command launcher
-Summary(pl):	Quickrun - bardzo prosty wykonawca poleceÒ
+Summary(pl.UTF-8):   Quickrun - bardzo prosty wykonawca polece≈Ñ
 Name:		quickrun
 Version:	0.4
 Release:	1
@@ -19,13 +19,13 @@ history list and filename/command completion. It is not a dockable
 applet, but instead requires a keybinding (shortcut) to be set in
 order to use it.
 
-%description -l pl
-Quickrun jest bardzo prostym wykonawc± poleceÒ przeznaczonym do
-wspÛ≥pracy z takimi zarz±dcami okien, jak Fluxbox i Blackbox. Jednakøe
-wspÛ≥pracuje on rÛwnieø ∂wietnie z Enlightenmentem, KDE i innymi.
-Obs≥uguje on historiÍ poleceÒ oraz dope≥nianie nazw plikÛw i poleceÒ.
-Nie jest to dokowalny aplet, ale wymaga do uøywania przypisania mu
-okre∂lonej kombinacji klawiszy (skrÛtu).
+%description -l pl.UTF-8
+Quickrun jest bardzo prostym wykonawcƒÖ polece≈Ñ przeznaczonym do
+wsp√≥≈Çpracy z takimi zarzƒÖdcami okien, jak Fluxbox i Blackbox. Jednak≈ºe
+wsp√≥≈Çpracuje on r√≥wnie≈º ≈õwietnie z Enlightenmentem, KDE i innymi.
+Obs≈Çuguje on historiƒô polece≈Ñ oraz dope≈Çnianie nazw plik√≥w i polece≈Ñ.
+Nie jest to dokowalny aplet, ale wymaga do u≈ºywania przypisania mu
+okre≈õlonej kombinacji klawiszy (skr√≥tu).
 
 %prep
 %setup -q
