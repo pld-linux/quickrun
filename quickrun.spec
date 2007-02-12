@@ -1,5 +1,5 @@
 Summary:	Quickrun - a very simple command launcher
-Summary(pl.UTF-8):   Quickrun - bardzo prosty wykonawca poleceń
+Summary(pl.UTF-8):	Quickrun - bardzo prosty wykonawca poleceń
 Name:		quickrun
 Version:	0.4
 Release:	1
